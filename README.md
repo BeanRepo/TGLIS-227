@@ -1,6 +1,19 @@
 # TGLIS-227
 ---
 ## Description
+TGLIS-227 is a sentence-level dataset for LIS. It is composed of $227$ distinct news extracted from RAI LIS newscasts editions. 
+
+For each of them we have:
+
+> 1. trascript_news.csv contains the trascript of each the news
+
+> 2. topic_news.csv contains the topic of each news
+
+> 3. timestamp_audio_news.csv contains the timestamp of each audio news
+
+> 4. timestamp_video_news.csv contains the timestamp of each video news
+
+By using timestamps it is possible to extract video and audio of each news from original newscasts. 
 
 ## Authors
 Manuela Marchisio: _manuela.marchisio@edu.unito.it, Università degli Studi di Torino -
